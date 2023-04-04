@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'TSISQUILISDA';
+	src: url(../../assets/fonts/TSISQUILISDA.woff2) format('woff2'),
+	url(../../assets/fonts/TSISQUILISDA.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
