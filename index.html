@@ -1,150 +1,225 @@
 <!DOCTYPE html>
-<html lang="en"
-    style="height: 100%;--s: 50px;--c: #191b22;--_s: calc(2*var(--s)) calc(2*var(--s));--_g: 35.36% 35.36% at;--_c: #0000 66%,#20222a 68% 70%,#0000 72%;background: radial-gradient(var(--_g) 100% 25%,var(--_c)) var(--s) var(--s)/var(--_s), radial-gradient(var(--_g) 0 75%,var(--_c)) var(--s) var(--s)/var(--_s), radial-gradient(var(--_g) 100% 25%,var(--_c)) 0 0/var(--_s), radial-gradient(var(--_g) 0 75%,var(--_c)) 0 0/var(--_s), repeating-conic-gradient(var(--c) 0 25%,#0000 0 50%) 0 0/var(--_s), radial-gradient(var(--_c)) 0 calc(var(--s)/2)/var(--s) var(--s) var(--c);background-attachment: fixed;overflow: hidden;overflow-x: visible;overflow-y: auto;font-family: Actor, sans-serif;">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>firstsViews</title>
+    <title>Integration</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/Actor.css">
-    <link rel="stylesheet" href="assets/css/Aleo.css">
-    <link rel="stylesheet" href="assets/css/Almarai.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Actor&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aleo&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Almarai&amp;display=swap">
     <link rel="stylesheet" href="assets/css/TSISQUILISDA.css">
     <link rel="stylesheet" href="assets/css/aos.min.css">
     <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/css/loggin.css">
+    <link rel="stylesheet" href="assets/css/css/Login-Form-Basic-icons.css">
+    <link rel="stylesheet" href="assets/css/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/css/create_post.css">
 </head>
 
-<body style="margin: 0px;height: 100%;">
-    <div class="container-fluid"
-        style="padding: 0px;height: 100%;background: #ffffff;overflow: auto;overflow-x: hidden;">
-        <header style="position: fixed;width: 100%;z-index: 1;box-shadow: 0px 0px 10px 3px #ed3833;">
-            <nav class="navbar navbar-light navbar-expand-md"
-                style="top: 0;width: 100%;z-index: 1;color: var(--bs-gray-100);padding-top: 8px;background: linear-gradient(31deg, #d35b28, #ff000c);font-family: TSISQUILISDA, Almarai;filter: brightness(200%) contrast(200%);">
-                <div class="container-fluid"><img class="rounded img-fluid d-md-inline"
-                        src="assets/img/Iconos-final-22-removebg-preview.png" width="125" height="40"
-                        style="max-width: 40px;min-width: 40px;max-height: 40px;min-height: 40px;" loading="lazy"><a
-                        class="navbar-brand" href="#"
-                        style="font-weight: bold;color: rgb(255,255,255);margin-right: 0px;margin-left: 5px;filter: brightness(40%); font-size:24px;">CupidosAngel</a><button
-                        data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span
-                            class="visually-hidden">Toggle navigation</span><span
-                            class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse justify-content-lg-end" id="navcol-1"
-                        style="color: rgb(248, 249, 250);filter: brightness(70%) contrast(55%);">
+<body>
+    <div class="container-fluid" id="container">
+        <header>
+            <nav class="navbar navbar-light navbar-expand-md">
+                <div class="container-fluid"><img class="rounded img-fluid d-md-inline" id="cupidoAngel-logo" src="assets/img/Iconos-final-22-removebg-preview.png" width="40" height="40" loading="lazy"><a class="navbar-brand" id="cupidoAngel-logo-name" href="index.html">CupidoAngel</a><button data-bs-toggle="collapse" data-bs-target="#navcol-1" class="navbar-toggler"><span class="visually-hidden" style="background: #000000;">Toggle navigation</span><span class="navbar-toggler-icon" style="background: url(&quot;assets/img/icons8-menu-30.png&quot;);"></span></button>
+                    <div class="collapse navbar-collapse justify-content-lg-end" id="navcol-1">
                         <!-- Start: navOptions -->
-                        <ul class="navbar-nav"
-                            style="font-family: TSISQUILISDA, Almarai;font-weight: bold;font-size: 20px;">
-                            <li class="nav-item"><a class="nav-link active" href="#"
-                                    style="color: #ffffff;padding-left: 15px;padding-right: 15px;filter: brightness(60%);">First
-                                    Item</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#"
-                                    style="color: #ffffff;padding-left: 15px;padding-right: 15px;filter: brightness(60%);">Second
-                                    Item</a></li><!-- Start: loggin -->
-                            <li class="nav-item"><a class="nav-link" href="#"
-                                    style="color: #ffffff;margin-right: 0px;padding-right: 10px;padding-left: 16px;filter: brightness(60%);">Ingresar</a>
-                            </li><!-- End: loggin -->
+                        <ul class="navbar-nav" style="font-family: Almarai, sans-serif;font-weight: bold;padding-top: 0px;">
+                            <li class="nav-item" style="padding: 0px;margin-top: 6px;margin-right: 0px;margin-bottom: 6px;margin-left: 6px;"><a class="nav-link active" style="color: #ffffff;padding-left: 15px;padding-right: 15px;filter: brightness(60%);">Acerca de nosotros</a></li>
+                            <li class="nav-item" style="padding: 0px;margin-top: 6px;margin-right: 0px;margin-bottom: 6px;margin-left: 6px;"><a class="nav-link" href="#" style="color: #ffffff;padding-left: 15px;padding-right: 15px;filter: brightness(60%);">Registrarse</a></li><!-- Start: loggin -->
+                            <li class="nav-item" style="padding: 0px;margin-top: 6px;margin-right: 0px;margin-bottom: 6px;margin-left: 6px;"><a class="nav-link" href="loggin.html" style="color: #ffffff;margin-right: 0px;padding-right: 10px;padding-left: 16px;filter: brightness(60%);" target="_parent">Ingresar</a></li><!-- End: loggin -->
                         </ul><!-- End: navOptions -->
                     </div>
                 </div>
             </nav>
         </header>
-        <main
-            style="height: 100%;--s: 50px;--c: #191b22;--_s: calc(2*var(--s)) calc(2*var(--s));--_g: 35.36% 35.36% at;--_c: #0000 66%,#20222a 68% 70%,#0000 72%;background: radial-gradient(var(--_g) 100% 25%,var(--_c)) var(--s) var(--s)/var(--_s), radial-gradient(var(--_g) 0 75%,var(--_c)) var(--s) var(--s)/var(--_s), radial-gradient(var(--_g) 100% 25%,var(--_c)) 0 0/var(--_s), radial-gradient(var(--_g) 0 75%,var(--_c)) 0 0/var(--_s), repeating-conic-gradient(var(--c) 0 25%,#0000 0 50%) 0 0/var(--_s), radial-gradient(var(--_c)) 0 calc(var(--s)/2)/var(--s) var(--s) var(--c);background-attachment: fixed;overflow: auto;">
+        <main id="products">
             <!-- Start: options -->
-            <section class="d-flex" data-aos="fade-down" data-aos-duration="600" data-aos-delay="200"
-                data-aos-once="true"
-                style="min-height: 90%;--bs-body-bg: var(--bs-body-bg);margin-bottom: 30px;margin-top: 90px;">
-                <div class="row g-0 row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-4 text-center justify-content-center align-items-stretch"
-                    style="margin: 0px auto;margin-top: 25px;margin-bottom: 25px;overflow: auto;">
-                    <div class="col align-self-center" style="background: rgba(255,255,255,0);padding: 10px;">
-                        <!-- Start: option1 --><a href="#"><img class="rounded img-fluid d-md-inline"
-                                data-bss-hover-animate="pulse" src="assets/img/Mujer-y-hombre-compañía.png" width="125"
-                                height="160"
-                                style="max-width: 140px;min-width: 125px;max-height: 200px;width: 140px;height: 200px;box-shadow: 0px 0px 6px 4px rgb(124,52,169);"
-                                loading="lazy"></a><!-- End: option1 -->
-                    </div>
-                    <div class="col align-self-center" style="padding: 10px;">
-                        <!-- Start: option2 --><a href="#"><img class="rounded img-fluid d-md-inline"
-                                data-bss-hover-animate="pulse" src="assets/img/pareja-gays-finall.png" width="125"
-                                height="160"
-                                style="max-width: 140px;min-width: 125px;max-height: 200px;width: 140px;height: 200px;box-shadow: 0px 0px 6px 4px #37618c;"
-                                loading="lazy"></a><!-- End: option2 -->
-                    </div>
-                    <div class="col align-self-center" style="padding: 10px;">
-                        <!-- Start: option3 --><a href="#"><img class="rounded img-fluid d-md-inline"
-                                data-bss-hover-animate="pulse" src="assets/img/CD.png" width="125" height="160"
-                                style="max-width: 140px;min-width: 125px;max-height: 200px;width: 140px;height: 200px;box-shadow: 0px 0px 11px 4px #f5dd69;"
-                                loading="lazy"></a><!-- End: option3 -->
-                    </div>
-                    <div class="col align-self-center" style="padding: 10px;">
-                        <!-- Start: option4 --><a href="#"><img class="rounded img-fluid" data-bss-hover-animate="pulse"
-                                src="assets/img/hetero-parejaa.png" width="125" height="160"
-                                style="max-width: 140px;min-width: 125px;max-height: 200px;width: 140px;height: 200px;box-shadow: 0px 0px 6px 4px #882e82;"
-                                loading="lazy"></a><!-- End: option4 -->
-                    </div>
-                    <div class="col align-self-center" style="background: rgba(255,255,255,0);padding: 10px;">
-                        <!-- Start: option5 --><a href="#"><img class="rounded img-fluid d-md-inline"
-                                data-bss-hover-animate="pulse" src="assets/img/lesbians-icon2fondoo.png" width="125"
-                                height="160"
-                                style="max-width: 140px;min-width: 125px;max-height: 200px;width: 140px;height: 200px;box-shadow: 0px 0px 6px 4px #e6f87d;"
-                                loading="lazy"></a><!-- End: option5 -->
-                    </div>
-                    <div class="col align-self-center" style="padding: 10px;">
-                        <!-- Start: option6 --><a href="#"><img class="rounded img-fluid d-md-inline"
-                                data-bss-hover-animate="pulse" src="assets/img/Chicaa.gif" width="125" height="160"
-                                style="max-width: 140px;min-width: 125px;max-height: 200px;width: 140px;height: 200px;box-shadow: 0px 0px 6px 4px #f29274;"
-                                loading="lazy"></a><!-- End: option6 -->
-                    </div>
-                    <div class="col align-self-center" style="padding: 10px;">
-                        <!-- Start: option7 --><a href="#"><img class="rounded img-fluid d-md-inline"
-                                data-bss-hover-animate="pulse" src="assets/img/Chicoo.png" width="125" height="160"
-                                style="max-width: 140px;min-width: 125px;max-height: 200px;width: 140px;height: 200px;box-shadow: 0px 0px 6px 4px #a2d5f2;"
-                                loading="lazy"></a><!-- End: option7 -->
+            <section class="d-flex" data-aos="fade-down" data-aos-duration="600" data-aos-delay="200" data-aos-once="true" id="premium-filter" style="margin-top: 90px;">
+                <div class="row g-0 text-center" id="product-filter-row">
+                    <!-- Start: Filter -->
+                    <div class="col-auto col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 order-last order-sm-last justify-content-md-center order-md-first order-lg-first order-xl-first order-xxl-first" id="filter">
+                        <form class="d-flex flex-row justify-content-center flex-wrap" style="background: var(--bs-gray);background: rgba(142,14,0,0);/*--bs-body-bg: #fff;*/filter: saturate(104%);">
+                            <div class="row">
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6" style="padding: 5px;"><select class="form-select" style="margin: 0px;margin-left: 0px;margin-right: 0px;">
+                                        <optgroup label="This is a group">
+                                            <option value="12" selected="">This is item 1</option>
+                                            <option value="13">This is item 2</option>
+                                            <option value="14">This is item 3</option>
+                                        </optgroup>
+                                    </select></div>
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6" style="padding: 5px;"><select class="form-select" style="margin: 0px;margin-left: 0px;margin-right: 0px;">
+                                        <optgroup label="This is a group">
+                                            <option value="12" selected="">This is item 1</option>
+                                            <option value="13">This is item 2</option>
+                                            <option value="14">This is item 3</option>
+                                        </optgroup>
+                                    </select></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6" style="padding: 5px;"><select class="form-select" style="margin: 0px;margin-left: 0px;margin-right: 0px;">
+                                        <optgroup label="This is a group">
+                                            <option value="12" selected="">This is item 1</option>
+                                            <option value="13">This is item 2</option>
+                                            <option value="14">This is item 3</option>
+                                        </optgroup>
+                                    </select></div>
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6" style="padding: 5px;"><input class="form-control" type="text" placeholder="Estado/Provincia"></div>
+                            </div>
+                            <div class="row" style="width: 100%;">
+                                <div class="col-auto col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12" style="padding: 0px;margin: 0px auto;"><input class="btn btn-primary" type="submit" style="margin: 0px;margin-left: 10px;margin-right: 10px;"></div>
+                            </div>
+                        </form>
+                    </div><!-- End: Filter -->
+                    <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7 align-self-center" id="options">
+                        <div class="row justify-content-between">
+                            <div class="col-3 col-sm-3 col-md-3 col-xxl-auto" style="margin-bottom: 20px;">
+                                <!-- Start: option3 --><a href="#"><img class="rounded img-fluid d-md-inline" data-bss-hover-animate="pulse" src="assets/img/CD.png" width="119" height="170" style="max-width: 140px;max-height: 200px;width: 42px;height: 60px;box-shadow: 0px 0px 11px 4px #f5dd69;" loading="eager"></a><!-- End: option3 -->
+                            </div>
+                            <div class="col-3 col-sm-3 col-md-3 col-xxl-auto" style="margin-bottom: 20px;">
+                                <!-- Start: option7 --><a href="#"><img class="rounded img-fluid d-md-inline" data-bss-hover-animate="pulse" src="assets/img/Chicoo.png" width="119" height="170" style="max-width: 140px;max-height: 200px;width: 42px;height: 60px;box-shadow: 0px 0px 6px 4px #a2d5f2;" loading="eager"></a><!-- End: option7 -->
+                            </div>
+                            <div class="col-3 col-sm-3 col-md-3 col-xxl-auto" style="margin-bottom: 20px;">
+                                <!-- Start: option4 --><a href="#"><img class="rounded img-fluid" data-bss-hover-animate="pulse" src="assets/img/hetero-parejaa.png" width="119" height="170" style="max-width: 140px;max-height: 200px;width: 42px;height: 60px;box-shadow: 0px 0px 6px 4px #882e82;" loading="eager"></a><!-- End: option4 -->
+                            </div>
+                            <div class="col-3 col-sm-3 col-md-3 col-xxl-auto" style="margin-bottom: 20px;">
+                                <!-- Start: option6 --><a href="#"><img class="rounded img-fluid d-md-inline" data-bss-hover-animate="pulse" src="assets/img/Chicaa.gif" width="119" height="170" style="max-width: 140px;max-height: 200px;width: 42px;height: 60px;box-shadow: 0px 0px 6px 4px #f29274;" loading="eager"></a><!-- End: option6 -->
+                            </div>
+                            <div class="col-4 col-sm-4 col-md-4 col-xxl-auto" style="margin-bottom: 20px;">
+                                <!-- Start: option5 --><a href="#"><img class="rounded img-fluid d-md-inline" data-bss-hover-animate="pulse" src="assets/img/lesbians-icon2fondoo.png" width="119" height="170" style="max-width: 140px;max-height: 200px;width: 42px;height: 60px;box-shadow: 0px 0px 6px 4px #e6f87d;" loading="eager"></a><!-- End: option5 -->
+                            </div>
+                            <div class="col-4 col-sm-4 col-md-4 col-xxl-auto" style="margin-bottom: 20px;">
+                                <!-- Start: option2 --><a href="#"><img class="rounded img-fluid d-md-inline" data-bss-hover-animate="pulse" src="assets/img/pareja-gays-finall.png" width="119" height="170" style="max-width: 140px;max-height: 200px;width: 42px;height: 60px;box-shadow: 0px 0px 6px 4px #37618c;" loading="eager"></a><!-- End: option2 -->
+                            </div>
+                            <div class="col-4 col-sm-4 col-md-4 col-xxl-auto" style="margin-bottom: 20px;">
+                                <!-- Start: option1 --><a href="#"><img class="rounded img-fluid d-md-inline" data-bss-hover-animate="pulse" src="assets/img/Mujer-y-hombre-compañía.png" width="119" height="170" style="max-width: 140px;max-height: 200px;width: 42px;height: 60px;box-shadow: 0px 0px 6px 4px rgb(124,52,169);" loading="eager"></a><!-- End: option1 -->
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section><!-- End: options -->
-            <!-- Start: filter -->
-            <div class="row" style="margin-top: 0px;">
-                <div class="col-12 justify-content-md-center">
-                    <form class="d-flex flex-row justify-content-center flex-wrap"
-                        style="padding: 8px;background: var(--bs-gray);padding-left: 170px;padding-right: 170px;background: rgba(142,14,0,0);/*--bs-body-bg: #fff;*/filter: saturate(104%);margin-top: 0px;margin-bottom: 0px;">
-                        <div class="col-auto col-sm-6 col-md-3" style="padding: 5px;"><input
-                                class="form-control flex-column" type="text"
-                                style="margin: 0px;margin-right: 0px;margin-left: 0px;" placeholder="Ciudad"></div>
-                        <div class="col-auto col-sm-6 col-md-3" style="padding: 5px;"><input
-                                class="form-control flex-column" type="text"
-                                style="margin: 0px;margin-right: 0px;margin-left: 0px;" placeholder="Estado/Provincia">
-                        </div>
-                        <div class="col-auto col-sm-12 col-md-3" style="padding: 5px;"><select class="form-select"
-                                style="margin: 0px;margin-left: 0px;margin-right: 0px;">
-                                <optgroup label="This is a group">
-                                    <option value="12" selected="">This is item 1</option>
-                                    <option value="13">This is item 2</option>
-                                    <option value="14">This is item 3</option>
-                                </optgroup>
-                            </select></div>
-                        <div class="col-auto col-sm-12 col-md-2 text-start align-self-center"><input
-                                class="btn btn-primary" type="submit" style="margin-left: 10px;margin-right: 10px;">
-                        </div>
-                    </form>
-                </div>
-            </div><!-- End: filter -->
+            <!-- Start: trends -->
+            <section class="premium">
+                <h2 class="premium-featured-zone">PREMIUM</h2><!-- Start: premium-container -->
+                <div id="premium-container" class="premium-featured-container slider-track">
+                    <!-- Start: premium-card -->
+                    <div class="premium-card">
+                        <div class="premium-featured-img"><img class="product-thumb" width="180" height="168" src="https://picsum.photos/170/164"><button class="btn btn-primary card-button" type="button">Button</button></div>
+                        <div class="product-info"><a class="contact-info" href="#"><img class="img-fluid contact-info-logo" src="assets/img/icons8-whatsapp.svg" width="24" height="24" alt="WhatsApp icon" loading="eager"><span class="contact-info-text">some number</span></a><span class="price">$1000</span></div>
+                    </div><!-- End: premium-card -->
+                    <!-- Start: premium-card -->
+                    <div class="premium-card">
+                        <div class="premium-featured-img"><img class="product-thumb" width="180" height="168" src="https://picsum.photos/id/230/170/164"><button class="btn btn-primary card-button" type="button">Button</button></div>
+                        <div class="product-info"><a class="contact-info" href="#"><img class="img-fluid contact-info-logo" src="assets/img/icons8-whatsapp.svg" width="24" height="24" alt="WhatsApp icon" loading="eager"><span class="contact-info-text">some number</span></a><span class="price">$1002</span></div>
+                    </div><!-- End: premium-card -->
+                    <!-- Start: premium-card -->
+                    <div class="premium-card">
+                        <div class="premium-featured-img"><img class="product-thumb" width="180" height="168" src="https://picsum.photos/id/231/170/164"><button class="btn btn-primary card-button" type="button">Button</button></div>
+                        <div class="product-info"><a class="contact-info" href="#"><img class="img-fluid contact-info-logo" src="assets/img/icons8-whatsapp.svg" width="24" height="24" alt="WhatsApp icon" loading="eager"><span class="contact-info-text">some number</span></a><span class="price">$1003</span></div>
+                    </div><!-- End: premium-card -->
+                    <!-- Start: premium-card -->
+                    <div class="premium-card">
+                        <div class="premium-featured-img"><img class="product-thumb" width="180" height="168" src="https://picsum.photos/id/232/170/164"><button class="btn btn-primary card-button" type="button">Button</button></div>
+                        <div class="product-info"><a class="contact-info" href="#"><img class="img-fluid contact-info-logo" src="assets/img/icons8-whatsapp.svg" width="24" height="24" alt="WhatsApp icon" loading="eager"><span class="contact-info-text">some number</span></a><span class="price">$1004</span></div>
+                    </div><!-- End: premium-card -->
+                    <!-- Start: premium-card -->
+                    <div class="premium-card">
+                        <div class="premium-featured-img"><img class="product-thumb" width="180" height="168" src="https://picsum.photos/id/233/170/164"><button class="btn btn-primary card-button" type="button">Button</button></div>
+                        <div class="product-info"><a class="contact-info" href="#"><img class="img-fluid contact-info-logo" src="assets/img/icons8-whatsapp.svg" width="24" height="24" alt="WhatsApp icon" loading="eager"><span class="contact-info-text">some number</span></a><span class="price">$1005</span></div>
+                    </div><!-- End: premium-card -->
+                    <!-- Start: premium-card -->
+                    <div class="premium-card">
+                        <div class="premium-featured-img"><img class="product-thumb" width="180" height="168" src="https://picsum.photos/id/234/170/164"><button class="btn btn-primary card-button" type="button">Button</button></div>
+                        <div class="product-info"><a class="contact-info" href="#"><img class="img-fluid contact-info-logo" src="assets/img/icons8-whatsapp.svg" width="24" height="24" alt="WhatsApp icon" loading="eager"><span class="contact-info-text">some number</span></a><span class="price">$1006</span></div>
+                    </div><!-- End: premium-card -->
+                    <!-- Start: premium-card -->
+                    <div class="premium-card">
+                        <div class="premium-featured-img"><img class="product-thumb" width="180" height="168" src="https://picsum.photos/id/235/170/164"><button class="btn btn-primary card-button" type="button">Button</button></div>
+                        <div class="product-info"><a class="contact-info" href="#"><img class="img-fluid contact-info-logo" src="assets/img/icons8-whatsapp.svg" width="24" height="24" alt="WhatsApp icon" loading="eager"><span class="contact-info-text">some number</span></a><span class="price">$1007</span></div>
+                    </div><!-- End: premium-card -->
+                    <!-- Start: premium-card -->
+                    <div class="premium-card">
+                        <div class="premium-featured-img"><img class="product-thumb" width="180" height="168" src="https://picsum.photos/id/237/170/164"><button class="btn btn-primary card-button" type="button">Button</button></div>
+                        <div class="product-info"><a class="contact-info" href="#"><img class="img-fluid contact-info-logo" src="assets/img/icons8-whatsapp.svg" width="24" height="24" alt="WhatsApp icon" loading="eager"><span class="contact-info-text">some number</span></a><span class="price">$1008</span></div>
+                    </div><!-- End: premium-card -->
+                    <!-- Start: premium-card -->
+                    <div class="premium-card">
+                        <div class="premium-featured-img"><img class="product-thumb" width="180" height="168" src="https://picsum.photos/id/238/170/164"><button class="btn btn-primary card-button" type="button">Button</button></div>
+                        <div class="product-info"><a class="contact-info" href="#"><img class="img-fluid contact-info-logo" src="assets/img/icons8-whatsapp.svg" width="24" height="24" alt="WhatsApp icon" loading="eager"><span class="contact-info-text">some number</span></a><span class="price">$1009</span></div>
+                    </div><!-- End: premium-card -->
+                    <!-- Start: premium-card -->
+                    <div class="premium-card">
+                        <div class="premium-featured-img"><img class="product-thumb" width="180" height="168" src="https://picsum.photos/id/240/170/164"><button class="btn btn-primary card-button" type="button">Button</button></div>
+                        <div class="product-info"><a class="contact-info" href="#"><img class="img-fluid contact-info-logo" src="assets/img/icons8-whatsapp.svg" width="24" height="24" alt="WhatsApp icon" loading="eager"><span class="contact-info-text">some number</span></a><span class="price">$10010</span></div>
+                    </div><!-- End: premium-card -->
+                </div><!-- End: premium-container -->
+            </section><!-- End: trends -->
+            <!-- Start: featured-container -->
+            <section class="trending">
+                <h2 class="premium-featured-zone">Mas popular</h2><!-- Start: featured-container -->
+                <div id="featured-container" class="premium-featured-container slider-track">
+                    <!-- Start: featured-card -->
+                    <div class="featured-card">
+                        <div class="premium-featured-img"><img class="product-thumb" width="130" height="112" src="https://picsum.photos/130/112"><button class="btn btn-primary card-button" type="button">Button</button></div>
+                        <div class="premium-featured-info" style="width: 100%;height: 20%;"><a class="contact-info" href="#"><img class="img-fluid contact-info-logo" src="assets/img/icons8-whatsapp.svg" width="24" height="24" alt="WhatsApp icon" loading="eager"><span class="contact-info-text">some number</span></a><span class="price">$1000</span></div>
+                    </div><!-- End: featured-card -->
+                    <!-- Start: featured-card -->
+                    <div class="featured-card">
+                        <div class="premium-featured-img"><img class="product-thumb" width="130" height="112" src="https://picsum.photos/id/260/130/112"><button class="btn btn-primary card-button" type="button">Button</button></div>
+                        <div class="trending-info"><a class="contact-info" href="#"><img class="img-fluid contact-info-logo" src="assets/img/icons8-whatsapp.svg" width="24" height="24" alt="WhatsApp icon" loading="eager"><span class="contact-info-text">some number</span></a><span class="price">$1000</span></div>
+                    </div><!-- End: featured-card -->
+                    <!-- Start: featured-card -->
+                    <div class="featured-card">
+                        <div class="premium-featured-img"><img class="product-thumb" width="130" height="112" src="https://picsum.photos/id/261/130/112"><button class="btn btn-primary card-button" type="button">Button</button></div>
+                        <div class="trending-info"><a class="contact-info" href="#"><img class="img-fluid contact-info-logo" src="assets/img/icons8-whatsapp.svg" width="24" height="24" alt="WhatsApp icon" loading="eager"><span class="contact-info-text">some number</span></a><span class="price">$1000</span></div>
+                    </div><!-- End: featured-card -->
+                    <!-- Start: featured-card -->
+                    <div class="featured-card">
+                        <div class="premium-featured-img"><img class="product-thumb" width="130" height="112" src="https://picsum.photos/id/261/130/112"><button class="btn btn-primary card-button" type="button">Button</button></div>
+                        <div class="trending-info"><a class="contact-info" href="#"><img class="img-fluid contact-info-logo" src="assets/img/icons8-whatsapp.svg" width="24" height="24" alt="WhatsApp icon" loading="eager"><span class="contact-info-text">some number</span></a><span class="price">$1000</span></div>
+                    </div><!-- End: featured-card -->
+                    <!-- Start: featured-card -->
+                    <div class="featured-card">
+                        <div class="premium-featured-img"><img class="product-thumb" width="130" height="112" src="https://picsum.photos/id/263/130/112"><button class="btn btn-primary card-button" type="button">Button</button></div>
+                        <div class="trending-info"><a class="contact-info" href="#"><img class="img-fluid contact-info-logo" src="assets/img/icons8-whatsapp.svg" width="24" height="24" alt="WhatsApp icon" loading="eager"><span class="contact-info-text">some number</span></a><span class="price">$1000</span></div>
+                    </div><!-- End: featured-card -->
+                    <!-- Start: featured-card -->
+                    <div class="featured-card">
+                        <div class="premium-featured-img"><img class="product-thumb" width="130" height="112" src="https://picsum.photos/id/264/130/112"><button class="btn btn-primary card-button" type="button">Button</button></div>
+                        <div class="trending-info"><a class="contact-info" href="#"><img class="img-fluid contact-info-logo" src="assets/img/icons8-whatsapp.svg" width="24" height="24" alt="WhatsApp icon" loading="eager"><span class="contact-info-text">some number</span></a><span class="price">$1000</span></div>
+                    </div><!-- End: featured-card -->
+                    <!-- Start: featured-card -->
+                    <div class="featured-card">
+                        <div class="premium-featured-img"><img class="product-thumb" width="130" height="112" src="https://picsum.photos/id/265/130/112"><button class="btn btn-primary card-button" type="button">Button</button></div>
+                        <div class="trending-info"><a class="contact-info" href="#"><img class="img-fluid contact-info-logo" src="assets/img/icons8-whatsapp.svg" width="24" height="24" alt="WhatsApp icon" loading="eager"><span class="contact-info-text">some number</span></a><span class="price">$1000</span></div>
+                    </div><!-- End: featured-card -->
+                    <!-- Start: featured-card -->
+                    <div class="featured-card">
+                        <div class="premium-featured-img"><img class="product-thumb" width="130" height="112" src="https://picsum.photos/id/266/130/112"><button class="btn btn-primary card-button" type="button">Button</button></div>
+                        <div class="trending-info"><a class="contact-info" href="#"><img class="img-fluid contact-info-logo" src="assets/img/icons8-whatsapp.svg" width="24" height="24" alt="WhatsApp icon" loading="eager"><span class="contact-info-text">some number</span></a><span class="price">$1000</span></div>
+                    </div><!-- End: featured-card -->
+                    <!-- Start: featured-card -->
+                    <div class="featured-card">
+                        <div class="premium-featured-img"><img class="product-thumb" width="130" height="112" src="https://picsum.photos/id/268/130/112"><button class="btn btn-primary card-button" type="button">Button</button></div>
+                        <div class="trending-info"><a class="contact-info" href="#"><img class="img-fluid contact-info-logo" src="assets/img/icons8-whatsapp.svg" width="24" height="24" alt="WhatsApp icon" loading="eager"><span class="contact-info-text">some number</span></a><span class="price">$1000</span></div>
+                    </div><!-- End: featured-card -->
+                    <!-- Start: featured-card -->
+                    <div class="featured-card">
+                        <div class="trending-img"><img class="product-thumb" width="130" height="112" src="https://picsum.photos/130/112"><button class="btn btn-primary card-button" type="button">Button</button></div>
+                        <div class="trending-info"><a class="contact-info" href="#"><img class="img-fluid contact-info-logo" src="assets/img/icons8-whatsapp.svg" width="24" height="24" alt="WhatsApp icon" loading="eager"><span class="contact-info-text">some number</span></a><span class="price">$1000</span></div>
+                    </div><!-- End: featured-card -->
+                </div><!-- End: featured-container -->
+            </section><!-- End: featured-container -->
             <!-- Start: usersPromotionItems -->
-            <section style="margin-bottom: 55px;margin-left: 0px;margin-right: 0px;overflow: auto;margin-top: 40px;">
+            <section id="userPromotionItems">
                 <!-- Start: infoUser -->
-                <div class="row g-0"
-                    style="margin: 0px auto;margin-bottom: 15px;border-radius: 15px;border-width: 1px;padding-top: 10px;padding-bottom: 10px;width: 80%;height: auto;max-height: 10%;">
+                <div class="row g-0 user-promotion-card">
                     <!-- Start: userImg -->
-                    <div class="col-auto col-sm-12 col-md-6 col-lg-4 text-center d-inline-flex justify-content-evenly mx-auto"
-                        style="height: 100%;padding: 0px;margin: 0px;"><img class="rounded img-fluid d-md-inline"
-                            src="assets/img/model.png" width="125" height="160"
-                            style="max-width: 140px;min-width: 125px;max-height: 160px;" loading="lazy"><img
-                            class="rounded img-fluid" src="assets/img/model.png" width="125" height="160"
-                            style="max-width: 140px;min-width: 125px;max-height: 160px;" loading="lazy"></div>
-                    <!-- End: userImg -->
+                    <div class="col-auto col-sm-12 col-md-6 col-lg-4 text-center d-inline-flex justify-content-evenly mx-auto user-promotion-img"><img class="rounded img-fluid d-md-inline user-promotion-thumb" src="assets/img/model.png" width="125" height="160" loading="lazy"><img class="rounded img-fluid d-md-inline user-promotion-thumb" src="assets/img/model.png" width="125" height="160" loading="lazy"></div><!-- End: userImg -->
                     <!-- Start: userDescription -->
-                    <div class="col-auto col-sm-12 col-md-9 col-lg-7 col-xl-8 col-xxl-8 mx-md-auto ms-lg-auto"
-                        style="padding: 0px;padding-top: 10px;padding-bottom: 20px;padding-left: 16px;padding-right: 32px;color: var(--bs-gray-100);border-width: 1px;border-radius: 10px;margin-top: 10px;background: #ff2a2a;font-family: TSISQUILISDA;filter: blur(0px) brightness(200%);backdrop-filter: grayscale(0%);-webkit-backdrop-filter: grayscale(0%);box-shadow: 0px 0px 12px #ed3833;">
+                    <div class="col-auto col-sm-12 col-md-9 col-lg-7 col-xl-8 col-xxl-8 mx-md-auto ms-lg-auto user-promotion-description">
                         <!-- Start: tagsFavs -->
                         <div class="d-flex flex-row justify-content-between" style="filter: brightness(55%);">
                             <!-- Start: tags -->
@@ -157,24 +232,15 @@
                             </div><!-- End: favs -->
                         </div><!-- End: tagsFavs -->
                         <h5 style="filter: brightness(55%);">Heading</h5>
-                        <p style="margin: 0px;filter: brightness(55%);">This is a wider card with supporting text below
-                            as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p style="margin: 0px;filter: brightness(55%);">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </div><!-- End: userDescription -->
                 </div><!-- End: infoUser -->
                 <!-- Start: infoUser -->
-                <div class="row g-0"
-                    style="margin: 0px auto;margin-bottom: 15px;border-radius: 15px;border-width: 1px;padding-top: 10px;padding-bottom: 10px;width: 80%;height: auto;max-height: 10%;">
+                <div class="row g-0 user-promotion-card">
                     <!-- Start: userImg -->
-                    <div class="col-auto col-sm-12 col-md-6 col-lg-4 text-center d-inline-flex justify-content-evenly mx-auto"
-                        style="height: 100%;padding: 0px;margin: 0px;"><img class="rounded img-fluid d-md-inline"
-                            src="assets/img/model.png" width="125" height="160"
-                            style="max-width: 140px;min-width: 125px;max-height: 160px;" loading="lazy"><img
-                            class="rounded img-fluid" src="assets/img/model.png" width="125" height="160"
-                            style="max-width: 140px;min-width: 125px;max-height: 160px;" loading="lazy"></div>
-                    <!-- End: userImg -->
+                    <div class="col-auto col-sm-12 col-md-6 col-lg-4 text-center d-inline-flex justify-content-evenly mx-auto user-promotion-img"><img class="rounded img-fluid d-md-inline user-promotion-thumb" src="assets/img/model.png" width="125" height="160" loading="lazy"><img class="rounded img-fluid d-md-inline user-promotion-thumb" src="assets/img/model.png" width="125" height="160" loading="lazy"></div><!-- End: userImg -->
                     <!-- Start: userDescription -->
-                    <div class="col-auto col-sm-12 col-md-9 col-lg-7 col-xl-8 col-xxl-8 mx-md-auto ms-lg-auto"
-                        style="padding: 0px;padding-top: 10px;padding-bottom: 20px;padding-left: 16px;padding-right: 32px;color: var(--bs-gray-100);border-width: 1px;border-radius: 10px;margin-top: 10px;background: #ff2a2a;font-family: TSISQUILISDA;filter: blur(0px) brightness(200%);backdrop-filter: grayscale(0%);-webkit-backdrop-filter: grayscale(0%);box-shadow: 0px 0px 12px #ed3833;">
+                    <div class="col-auto col-sm-12 col-md-9 col-lg-7 col-xl-8 col-xxl-8 mx-md-auto ms-lg-auto user-promotion-description">
                         <!-- Start: tagsFavs -->
                         <div class="d-flex flex-row justify-content-between" style="filter: brightness(55%);">
                             <!-- Start: tags -->
@@ -187,24 +253,15 @@
                             </div><!-- End: favs -->
                         </div><!-- End: tagsFavs -->
                         <h5 style="filter: brightness(55%);">Heading</h5>
-                        <p style="margin: 0px;filter: brightness(55%);">This is a wider card with supporting text below
-                            as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p style="margin: 0px;filter: brightness(55%);">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </div><!-- End: userDescription -->
                 </div><!-- End: infoUser -->
                 <!-- Start: infoUser -->
-                <div class="row g-0"
-                    style="margin: 0px auto;margin-bottom: 15px;border-radius: 15px;border-width: 1px;padding-top: 10px;padding-bottom: 10px;width: 80%;height: auto;max-height: 10%;">
+                <div class="row g-0 user-promotion-card">
                     <!-- Start: userImg -->
-                    <div class="col-auto col-sm-12 col-md-6 col-lg-4 text-center d-inline-flex justify-content-evenly mx-auto"
-                        style="height: 100%;padding: 0px;margin: 0px;"><img class="rounded img-fluid d-md-inline"
-                            src="assets/img/model.png" width="125" height="160"
-                            style="max-width: 140px;min-width: 125px;max-height: 160px;" loading="lazy"><img
-                            class="rounded img-fluid" src="assets/img/model.png" width="125" height="160"
-                            style="max-width: 140px;min-width: 125px;max-height: 160px;" loading="lazy"></div>
-                    <!-- End: userImg -->
+                    <div class="col-auto col-sm-12 col-md-6 col-lg-4 text-center d-inline-flex justify-content-evenly mx-auto user-promotion-img"><img class="rounded img-fluid d-md-inline user-promotion-thumb" src="assets/img/model.png" width="125" height="160" loading="lazy"><img class="rounded img-fluid d-md-inline user-promotion-thumb" src="assets/img/model.png" width="125" height="160" loading="lazy"></div><!-- End: userImg -->
                     <!-- Start: userDescription -->
-                    <div class="col-auto col-sm-12 col-md-9 col-lg-7 col-xl-8 col-xxl-8 mx-md-auto ms-lg-auto"
-                        style="padding: 0px;padding-top: 10px;padding-bottom: 20px;padding-left: 16px;padding-right: 32px;color: var(--bs-gray-100);border-width: 1px;border-radius: 10px;margin-top: 10px;background: #ff2a2a;font-family: TSISQUILISDA;filter: blur(0px) brightness(200%);backdrop-filter: grayscale(0%);-webkit-backdrop-filter: grayscale(0%);box-shadow: 0px 0px 12px #ed3833;">
+                    <div class="col-auto col-sm-12 col-md-9 col-lg-7 col-xl-8 col-xxl-8 mx-md-auto ms-lg-auto user-promotion-description">
                         <!-- Start: tagsFavs -->
                         <div class="d-flex flex-row justify-content-between" style="filter: brightness(55%);">
                             <!-- Start: tags -->
@@ -217,24 +274,15 @@
                             </div><!-- End: favs -->
                         </div><!-- End: tagsFavs -->
                         <h5 style="filter: brightness(55%);">Heading</h5>
-                        <p style="margin: 0px;filter: brightness(55%);">This is a wider card with supporting text below
-                            as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p style="margin: 0px;filter: brightness(55%);">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </div><!-- End: userDescription -->
                 </div><!-- End: infoUser -->
                 <!-- Start: infoUser -->
-                <div class="row g-0"
-                    style="margin: 0px auto;margin-bottom: 15px;border-radius: 15px;border-width: 1px;padding-top: 10px;padding-bottom: 10px;width: 80%;height: auto;max-height: 10%;">
+                <div class="row g-0 user-promotion-card">
                     <!-- Start: userImg -->
-                    <div class="col-auto col-sm-12 col-md-6 col-lg-4 text-center d-inline-flex justify-content-evenly mx-auto"
-                        style="height: 100%;padding: 0px;margin: 0px;"><img class="rounded img-fluid d-md-inline"
-                            src="assets/img/model.png" width="125" height="160"
-                            style="max-width: 140px;min-width: 125px;max-height: 160px;" loading="lazy"><img
-                            class="rounded img-fluid" src="assets/img/model.png" width="125" height="160"
-                            style="max-width: 140px;min-width: 125px;max-height: 160px;" loading="lazy"></div>
-                    <!-- End: userImg -->
+                    <div class="col-auto col-sm-12 col-md-6 col-lg-4 text-center d-inline-flex justify-content-evenly mx-auto user-promotion-img"><img class="rounded img-fluid d-md-inline user-promotion-thumb" src="assets/img/model.png" width="125" height="160" loading="lazy"><img class="rounded img-fluid d-md-inline user-promotion-thumb" src="assets/img/model.png" width="125" height="160" loading="lazy"></div><!-- End: userImg -->
                     <!-- Start: userDescription -->
-                    <div class="col-auto col-sm-12 col-md-9 col-lg-7 col-xl-8 col-xxl-8 mx-md-auto ms-lg-auto"
-                        style="padding: 0px;padding-top: 10px;padding-bottom: 20px;padding-left: 16px;padding-right: 32px;color: var(--bs-gray-100);border-width: 1px;border-radius: 10px;margin-top: 10px;background: #ff2a2a;font-family: TSISQUILISDA;filter: blur(0px) brightness(200%);backdrop-filter: grayscale(0%);-webkit-backdrop-filter: grayscale(0%);box-shadow: 0px 0px 12px #ed3833;">
+                    <div class="col-auto col-sm-12 col-md-9 col-lg-7 col-xl-8 col-xxl-8 mx-md-auto ms-lg-auto user-promotion-description">
                         <!-- Start: tagsFavs -->
                         <div class="d-flex flex-row justify-content-between" style="filter: brightness(55%);">
                             <!-- Start: tags -->
@@ -247,8 +295,70 @@
                             </div><!-- End: favs -->
                         </div><!-- End: tagsFavs -->
                         <h5 style="filter: brightness(55%);">Heading</h5>
-                        <p style="margin: 0px;filter: brightness(55%);">This is a wider card with supporting text below
-                            as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p style="margin: 0px;filter: brightness(55%);">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div><!-- End: userDescription -->
+                </div><!-- End: infoUser -->
+                <!-- Start: infoUser -->
+                <div class="row g-0 user-promotion-card">
+                    <!-- Start: userImg -->
+                    <div class="col-auto col-sm-12 col-md-6 col-lg-4 text-center d-inline-flex justify-content-evenly mx-auto user-promotion-img"><img class="rounded img-fluid d-md-inline user-promotion-thumb" src="assets/img/model.png" width="125" height="160" loading="lazy"><img class="rounded img-fluid d-md-inline user-promotion-thumb" src="assets/img/model.png" width="125" height="160" loading="lazy"></div><!-- End: userImg -->
+                    <!-- Start: userDescription -->
+                    <div class="col-auto col-sm-12 col-md-9 col-lg-7 col-xl-8 col-xxl-8 mx-md-auto ms-lg-auto user-promotion-description">
+                        <!-- Start: tagsFavs -->
+                        <div class="d-flex flex-row justify-content-between" style="filter: brightness(55%);">
+                            <!-- Start: tags -->
+                            <div class="d-inline-block">
+                                <p>Paragraph</p>
+                            </div><!-- End: tags -->
+                            <!-- Start: favs -->
+                            <div class="d-inline-block">
+                                <p>Paragraph</p>
+                            </div><!-- End: favs -->
+                        </div><!-- End: tagsFavs -->
+                        <h5 style="filter: brightness(55%);">Heading</h5>
+                        <p style="margin: 0px;filter: brightness(55%);">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div><!-- End: userDescription -->
+                </div><!-- End: infoUser -->
+                <!-- Start: infoUser -->
+                <div class="row g-0 user-promotion-card">
+                    <!-- Start: userImg -->
+                    <div class="col-auto col-sm-12 col-md-6 col-lg-4 text-center d-inline-flex justify-content-evenly mx-auto user-promotion-img"><img class="rounded img-fluid d-md-inline user-promotion-thumb" src="assets/img/model.png" width="125" height="160" loading="lazy"><img class="rounded img-fluid d-md-inline user-promotion-thumb" src="assets/img/model.png" width="125" height="160" loading="lazy"></div><!-- End: userImg -->
+                    <!-- Start: userDescription -->
+                    <div class="col-auto col-sm-12 col-md-9 col-lg-7 col-xl-8 col-xxl-8 mx-md-auto ms-lg-auto user-promotion-description">
+                        <!-- Start: tagsFavs -->
+                        <div class="d-flex flex-row justify-content-between" style="filter: brightness(55%);">
+                            <!-- Start: tags -->
+                            <div class="d-inline-block">
+                                <p>Paragraph</p>
+                            </div><!-- End: tags -->
+                            <!-- Start: favs -->
+                            <div class="d-inline-block">
+                                <p>Paragraph</p>
+                            </div><!-- End: favs -->
+                        </div><!-- End: tagsFavs -->
+                        <h5 style="filter: brightness(55%);">Heading</h5>
+                        <p style="margin: 0px;filter: brightness(55%);">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div><!-- End: userDescription -->
+                </div><!-- End: infoUser -->
+                <!-- Start: infoUser -->
+                <div class="row g-0 user-promotion-card">
+                    <!-- Start: userImg -->
+                    <div class="col-auto col-sm-12 col-md-6 col-lg-4 text-center d-inline-flex justify-content-evenly mx-auto user-promotion-img"><img class="rounded img-fluid d-md-inline user-promotion-thumb" src="assets/img/model.png" width="125" height="160" loading="lazy"><img class="rounded img-fluid d-md-inline user-promotion-thumb" src="assets/img/model.png" width="125" height="160" loading="lazy"></div><!-- End: userImg -->
+                    <!-- Start: userDescription -->
+                    <div class="col-auto col-sm-12 col-md-9 col-lg-7 col-xl-8 col-xxl-8 mx-md-auto ms-lg-auto user-promotion-description">
+                        <!-- Start: tagsFavs -->
+                        <div class="d-flex flex-row justify-content-between" style="filter: brightness(55%);">
+                            <!-- Start: tags -->
+                            <div class="d-inline-block">
+                                <p>Paragraph</p>
+                            </div><!-- End: tags -->
+                            <!-- Start: favs -->
+                            <div class="d-inline-block">
+                                <p>Paragraph</p>
+                            </div><!-- End: favs -->
+                        </div><!-- End: tagsFavs -->
+                        <h5 style="filter: brightness(55%);">Heading</h5>
+                        <p style="margin: 0px;filter: brightness(55%);">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </div><!-- End: userDescription -->
                 </div><!-- End: infoUser -->
             </section><!-- End: usersPromotionItems -->
@@ -257,6 +367,8 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/aos.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/sliders.js"></script>
+    <script src="assets/js/js/bs-init.js"></script>
 </body>
 
 </html>
