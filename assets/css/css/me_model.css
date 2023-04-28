@@ -1,0 +1,176 @@
+.user-photos-container {
+  overflow-x: hidden;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px 20px;
+  flex-wrap: wrap;
+}
+
+.photo-area-img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  clip-path: polygon(30% 0%, 70% 0%, 100% 25%, 100% 75%, 70% 95%, 30% 95%, 0% 75%, 0% 25%);
+}
+
+.user-photo-card {
+  width: 200px;
+  height: 200px;
+  flex: 0 0 auto;
+  padding: 10px 5px;
+}
+
+.card-button-user-photos {
+  position: absolute;
+  display: none;
+  width: 80%;
+  left: 10%;
+  bottom: 40%;
+  text-align: center;
+}
+
+.user-photo-card:hover .card-button-user-photos {
+  display: initial;
+}
+
+.remove-photo-button {
+  background: #ed4648;
+  border: 1px solid black;
+  padding: 0px;
+}
+
+.remove-photo-button:hover {
+  background-color: #df696b;
+}
+
+.edit-add-photo-button {
+  background-color: rgb(108, 104, 104);
+  border: 1px solid black;
+  padding: 0px;
+}
+
+.edit-add-photo-button:hover {
+  background-color: rgb(217, 215, 215);
+}
+
+.edit-add-remove-button-img {
+  max-height: 40px;
+  max-width: 40px;
+}
+
+.upload-photo-input {
+  display: none;
+}
+
+#form-row {
+  margin: 35px auto;
+  width: 90%;
+  margin-bottom: 0px;
+}
+
+.form-col {
+  padding: 15px;
+}
+
+#form-row-2 {
+  width: 90%;
+  padding: 14px;
+  margin: 0px auto;
+}
+
+#form-row-2-col {
+  margin: 0px auto;
+  height: 100%;
+}
+
+.registration-fields {
+  color: rgb(255, 255, 255);
+  background: #ed4648;
+  font-family: Actor, sans-serif;
+  font-size: 20px;
+  margin: 0px;
+  border-radius: 13px;
+  padding: 5px;
+}
+
+.textInput-style {
+  background: rgba(255, 255, 255, 0);
+  border-width: 1px;
+  color: rgb(255, 255, 255);
+  width: 60%;
+}
+
+.numberInput-style {
+  background: rgba(255, 255, 255, 0);
+  border-width: 1px;
+  color: rgb(255, 255, 255);
+  width: 60%;
+}
+
+#form-font-color {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.disponibility-days {
+  color: rgb(255, 255, 255);
+  margin: 0px;
+  margin-left: 5px;
+  font-size: 20px;
+  margin-right: 0px;
+}
+
+.disponibility-hours {
+  width: 20%;
+  height: 15%;
+}
+
+.legal-terms-checkbox {
+  width: 15px;
+  height: 15px;
+  max-height: 15px;
+  max-width: 15px;
+}
+
+#user-photos-section {
+  margin-bottom: 0px;
+  margin-top: 130px;
+}
+
+#form-submit-buttons {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.selector-input {
+  width: 100%;
+}
+
+#submit-form-button {
+  background: #ed4648;
+  border-style: none;
+}
+
+#submit-form-button:hover {
+  background-color: #df696b;
+}
+
+#cancel-form-button {
+  background: rgb(108, 104, 104);
+  border-style: none;
+}
+
+#cancel-form-button:hover {
+  background-color: rgb(217, 215, 215);
+}
+
+#text-area-input {
+  height: 40%;
+  max-height: 40%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+

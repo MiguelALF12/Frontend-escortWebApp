@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>create_post</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Actor&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aleo&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Almarai&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/TSISQUILISDA.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/css/loggin.css">
+    <link rel="stylesheet" href="assets/css/css/Login-Form-Basic-icons.css">
+    <link rel="stylesheet" href="assets/css/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/css/me_model.css">
+</head>
+
+<body>
+    <div class="container-fluid" id="container">
+        <header>
+            <nav class="navbar navbar-light navbar-expand-md" id="loggedIn-nav-bar">
+                <div class="container-fluid"><img class="rounded img-fluid d-md-inline" src="assets/img/Iconos-final-22-removebg-preview.png" width="125" height="40" style="max-width: 40px;min-width: 40px;max-height: 40px;min-height: 40px;"><a class="navbar-brand" id="cupidoAngel-logo-title" href="index.html">CupidosAngel</a><button data-bs-toggle="collapse" data-bs-target="#navcol-1" class="navbar-toggler"><span class="visually-hidden" style="background: #000000;">Toggle navigation</span><span id="navbar-toggler-icon" class="navbar-toggler-icon" style="background: url(&quot;assets/img/icons8-menu-30.png&quot;);"></span></button>
+                    <div class="collapse navbar-collapse justify-content-md-end justify-content-lg-end justify-content-xl-end justify-content-xxl-end" id="navcol-1">
+                        <ul class="navbar-nav d-flex align-items-center" style="font-family: Almarai, sans-serif;font-weight: bold;">
+                            <!-- Start: navitem-icon -->
+                            <li class="nav-item navItems"><a class="nav-link d-flex justify-content-start align-items-center navItems-internal-links" href="#"><img class="img-fluid" width="30" height="30" style="height: 30px;width: 30px;" src="assets/img/icono-moneda%20(2).png">
+                                    <h5 class="m-0 ms-2">$SALDO</h5>
+                                </a></li><!-- End: navitem-icon -->
+                            <!-- Start: navitem-icon -->
+                            <li class="nav-item navItems"><a class="nav-link d-flex justify-content-start align-items-center navItems-internal-links" href="#" style="padding: 0px;"><img class="img-fluid" width="30" height="30" style="height: 30px;width: 30px;" src="assets/img/icons8-add-50.png">
+                                    <h5 class="m-0 ms-2">Anuncios</h5>
+                                </a></li><!-- End: navitem-icon -->
+                            <!-- Start: navitem-icon -->
+                            <li class="nav-item d-flex navItems navItems-internal-links">
+                                <div class="nav-item dropdown"><a aria-expanded="false" data-bs-toggle="dropdown" class="text-decoration-none text-white" href="#"><img class="img-fluid" width="30" height="30" style="height: 30px;width: 30px;" src="assets/img/icono-de-usuarioblanco.png">
+                                        <h5 class="d-inline" style="margin: 0px;margin-left: 10px;">Mi cuenta</h5>
+                                    </a>
+                                    <div class="dropdown-menu"><a class="dropdown-item" href="#">Mi cuenta</a><a class="dropdown-item" href="register_as_model.html">Yo modelo</a><a class="dropdown-item" href="index.html">Salir</a></div>
+                                </div>
+                            </li><!-- End: navitem-icon -->
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <form id="form-font-color" method="post" enctype="multipart/form-data" target="_parent">
+                <section id="user-photos-section">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="user-photos-container">
+                                <div class="user-photo-card">
+                                    <div class="photo-area-img"><img id="userImg-1" class="product-thumb placeholder-glow" width="180" height="170" src="http://via.placeholder.com/190x180">
+                                        <div class="card-button-user-photos"><button class="btn btn-primary edit-add-photo-button mx-1 border-dark" type="button"><label class="form-label" style="background: url(&quot;assets/img/icons8-edit.svg&quot;) center / cover no-repeat;display: block;margin: 0px;height: 40px;width: 40px;" for="uploadImg-1"></label><input class="form-control d-none" type="file" id="uploadImg-1" name="uploadImg" accept="image/*"></button><button class="btn btn-primary remove-photo-button mx-1 border-dark" id="removeImg-1" type="button"><img class="edit-add-remove-button-img" src="assets/img/icons8-trash.svg" width="40" height="40"></button>
+                                            <div></div>
+                                            <div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="user-photo-card">
+                                    <div class="photo-area-img"><img id="userImg-2" class="product-thumb placeholder-glow" width="180" height="170" src="http://via.placeholder.com/190x180">
+                                        <div class="card-button-user-photos"><button class="btn btn-primary edit-add-photo-button mx-1 border-dark" type="button"><label class="form-label" style="background: url(&quot;assets/img/icons8-edit.svg&quot;) center / cover no-repeat;display: block;margin: 0px;height: 40px;width: 40px;" for="uploadImg-2"></label><input class="form-control d-none" type="file" id="uploadImg-2" name="uploadImg" accept="image/*"></button><button class="btn btn-primary remove-photo-button mx-1 border-dark" id="removeImg-2" type="button"><img class="edit-add-remove-button-img" src="assets/img/icons8-trash.svg" width="40" height="40"></button>
+                                            <div></div>
+                                            <div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="user-photo-card">
+                                    <div class="photo-area-img"><img id="userImg-3" class="product-thumb placeholder-glow" width="180" height="170" src="http://via.placeholder.com/190x180">
+                                        <div class="card-button-user-photos"><button class="btn btn-primary edit-add-photo-button mx-1 border-dark" type="button"><label class="form-label" style="background: url(&quot;assets/img/icons8-edit.svg&quot;) center / cover no-repeat;display: block;margin: 0px;height: 40px;width: 40px;" for="uploadImg-3"></label><input class="form-control d-none" type="file" id="uploadImg-3" name="uploadImg" accept="image/*"></button><button class="btn btn-primary remove-photo-button mx-1 border-dark" id="removeImg-3" type="button"><img class="edit-add-remove-button-img" src="assets/img/icons8-trash.svg" width="40" height="40"></button>
+                                            <div></div>
+                                            <div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="user-photo-card">
+                                    <div class="photo-area-img"><img id="userImg-4" class="product-thumb placeholder-glow" width="180" height="170" src="http://via.placeholder.com/190x180">
+                                        <div class="card-button-user-photos"><button class="btn btn-primary edit-add-photo-button mx-1 border-dark" type="button"><label class="form-label" style="background: url(&quot;assets/img/icons8-edit.svg&quot;) center / cover no-repeat;display: block;margin: 0px;height: 40px;width: 40px;" for="uploadImg-4"></label><input class="form-control d-none" type="file" id="uploadImg-4" name="uploadImg" accept="image/*"></button><button class="btn btn-primary remove-photo-button mx-1 border-dark" id="removeImg-4" type="button"><img class="edit-add-remove-button-img" src="assets/img/icons8-trash.svg" width="40" height="40"></button>
+                                            <div></div>
+                                            <div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="user-photo-card">
+                                    <div class="photo-area-img"><img id="userImg-5" class="product-thumb placeholder-glow" width="180" height="170" src="http://via.placeholder.com/190x180">
+                                        <div class="card-button-user-photos"><button class="btn btn-primary edit-add-photo-button mx-1 border-dark" type="button"><label class="form-label" style="background: url(&quot;assets/img/icons8-edit.svg&quot;) center / cover no-repeat;display: block;margin: 0px;height: 40px;width: 40px;" for="uploadImg-5"></label><input class="form-control d-none" type="file" id="uploadImg-5" name="uploadImg" accept="image/*"></button><button class="btn btn-primary remove-photo-button mx-1 border-dark" id="removeImg-5" type="button"><img class="edit-add-remove-button-img" src="assets/img/icons8-trash.svg" width="40" height="40"></button>
+                                            <div></div>
+                                            <div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="row" id="form-row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 form-col">
+                            <div class="d-flex justify-content-between align-items-center px-3 my-3"><label class="form-label form-label registration-fields" for="name" style="border-width: 1px;border-radius: 13px;padding: 5px;">Nombre</label><input class="form-control form-control textInput-style" type="text" name="name" placeholder="Sara" required=""></div>
+                            <div class="d-flex justify-content-between align-items-center px-3 my-3"><label class="form-label form-label registration-fields" id="Edad" style="margin: 0px;" for="age">Edad</label><input class="form-control form-control numberInput-style" type="number" name="age" placeholder="25" min="21" step="1" required=""></div>
+                            <div class="d-flex justify-content-between align-items-center px-3 my-3"><label class="form-label form-label registration-fields" style="margin: 0px;" for="height">Estatura (cm)</label><input class="form-control form-control numberInput-style" type="number" name="height" min="150" max="300" step="5" placeholder="150" required=""></div>
+                            <div class="d-flex justify-content-between align-items-center px-3 my-3"><label class="form-label form-label registration-fields" style="margin: 0px;" for="hairColor">Color de cabello</label><input class="form-control form-control textInput-style" type="text" name="hairColor" placeholder="Castaño" required=""></div>
+                            <div class="d-flex justify-content-between align-items-center px-3 my-3"><label class="form-label form-label registration-fields" style="margin: 0px;" for="eyesColor">Color de ojos</label><input class="form-control form-control textInput-style" type="text" name="eyesColor" placeholder="Azul claro" required=""></div>
+                            <div class="d-flex justify-content-between align-items-center px-3 my-3"><label class="form-label form-label registration-fields" style="margin: 0px;" for="location">Ubicación</label>
+                                <div style="width: 60%;"><select class="form-select selector-input" name="location" required="">
+                                        <optgroup label="Selecciona"></optgroup>
+                                    </select></div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center px-3 my-3"><label class="form-label form-label registration-fields" style="margin: 0px;" for="title">Titulo</label><input class="form-control form-control textInput-style" type="text" name="title" placeholder="La mejor compañia"></div>
+                            <div class="d-flex justify-content-between align-items-center px-3 my-3"><label class="form-label form-label registration-fields" style="margin: 0px;" for="sexuality">Tu eres?</label>
+                                <div style="width: 60%;"><select class="form-select selector-input" name="sexuality">
+                                        <optgroup label="Selecciona">
+                                            <option value="women" selected="">Mujer</option>
+                                            <option value="trans">Trans</option>
+                                            <option value="cd">CD</option>
+                                            <option value="men">Hombre</option>
+                                        </optgroup>
+                                    </select></div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center px-3 my-3"><label class="form-label form-label registration-fields" style="margin: 0px;" for="category">Categoría</label>
+                                <div style="width: 60%;"><select class="form-select form-select selector-input" name="category">
+                                        <optgroup label="Selecciona">
+                                            <option value="women" selected="">Chica</option>
+                                            <option value="trans">Trans</option>
+                                            <option value="cd">CD</option>
+                                            <option value="men">Hombre</option>
+                                            <option value="Lesbian">Lesbiana</option>
+                                            <option value="Couple">Pareja</option>
+                                            <option value="gay">Gay</option>
+                                            <option value="scort">Scort</option>
+                                            <option value="massage">Masajista</option>
+                                            <option value="rent">Alquiler</option>
+                                        </optgroup>
+                                    </select></div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center px-3 my-3"><label class="form-label form-label registration-fields" style="margin: 0px;" for="prices">Tarifas</label><input class="form-control form-control textInput-style" type="text" name="prices" required=""></div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 form-col">
+                            <div class="d-flex flex-column justify-content-between align-items-center px-1"><label class="form-label d-flex form-label registration-fields" style="color: rgb(255,255,255);font-size: 20px;margin-bottom: 0px;">Horario o disponibilidad</label>
+                                <div class="w-100"><span style="color: rgb(255,255,255);font-size: 12px;">Horas en formato militar (00:00h - 24:00h)</span>
+                                    <div>
+                                        <div>
+                                            <div class="d-flex align-items-center" style="margin: 5px 0px;"><input type="checkbox" style="width: 15px;height: 15px;max-height: 15px;max-width: 15px;" name="mondayCheck"><label class="form-label form-label disponibility-days" for="mondayCheck">Lunes</label></div>
+                                            <div class="d-flex justify-content-evenly"><span class="d-xxl-flex align-items-xxl-center">Desde las&nbsp;</span><input class="form-control form-control disponibility-hours" type="number" name="startingHourMonday" min="0" max="24"><span class="d-xxl-flex align-items-xxl-center ps-3">hasta las</span><input class="form-control d-xxl-flex align-items-xxl-center form-control disponibility-hours" type="number" name="EndingHourMonday" max="24" min="0"></div>
+                                        </div>
+                                        <div>
+                                            <div class="d-flex align-items-center" style="margin: 5px 0px;"><input type="checkbox" style="width: 15px;height: 15px;max-height: 15px;max-width: 15px;" name="tuesdayCheck"><label class="form-label form-label disponibility-days" for="tuesdayCheck">Martes</label></div>
+                                            <div class="d-flex justify-content-evenly"><span class="d-xxl-flex align-items-xxl-center">Desde las&nbsp;</span><input class="form-control form-control disponibility-hours" type="number" name="startingHourTuesday" min="0" max="24"><span class="d-xxl-flex align-items-xxl-center ps-3">hasta las</span><input class="form-control d-xxl-flex align-items-xxl-center form-control disponibility-hours" type="number" name="EndingHourTuesday" max="24" min="0"></div>
+                                        </div>
+                                        <div>
+                                            <div class="d-flex align-items-center" style="margin: 5px 0px;"><input type="checkbox" style="width: 15px;height: 15px;max-height: 15px;max-width: 15px;" name="wednesdaysCheck"><label class="form-label form-label disponibility-days" for="wednesdaysCheck">Miercoles</label></div>
+                                            <div class="d-flex justify-content-evenly"><span class="d-xxl-flex align-items-xxl-center">Desde las&nbsp;</span><input class="form-control form-control disponibility-hours" type="number" name="startingHourWednesday" min="0" max="24"><span class="d-xxl-flex align-items-xxl-center ps-3">hasta las</span><input class="form-control d-xxl-flex align-items-xxl-center form-control disponibility-hours" type="number" name="EndingHourWednesday" max="24" min="0"></div>
+                                        </div>
+                                        <div>
+                                            <div class="d-flex align-items-center" style="margin: 5px 0px;"><input type="checkbox" style="width: 15px;height: 15px;max-height: 15px;max-width: 15px;" name="thursdayCheck"><label class="form-label form-label disponibility-days" for="thursdayCheck">Jueves</label></div>
+                                            <div class="d-flex justify-content-evenly"><span class="d-xxl-flex align-items-xxl-center">Desde las&nbsp;</span><input class="form-control form-control disponibility-hours" type="number" name="startingHourThursday" min="0" max="24"><span class="d-xxl-flex align-items-xxl-center ps-3">hasta las</span><input class="form-control d-xxl-flex align-items-xxl-center form-control disponibility-hours" type="number" name="EndingHourThursday" max="24" min="0"></div>
+                                        </div>
+                                        <div>
+                                            <div class="d-flex align-items-center" style="margin: 5px 0px;"><input type="checkbox" style="width: 15px;height: 15px;max-height: 15px;max-width: 15px;" name="fridayCheck"><label class="form-label form-label disponibility-days" for="fridayCheck">Viernes</label></div>
+                                            <div class="d-flex justify-content-evenly"><span class="d-xxl-flex align-items-xxl-center">Desde las&nbsp;</span><input class="form-control form-control disponibility-hours" type="number" name="startingHourFriday" min="0" max="24"><span class="d-xxl-flex align-items-xxl-center ps-3">hasta las</span><input class="form-control d-xxl-flex align-items-xxl-center form-control disponibility-hours" type="number" name="EndingHourFriday" max="24" min="0"></div>
+                                        </div>
+                                        <div>
+                                            <div class="d-flex align-items-center" style="margin: 5px 0px;"><input type="checkbox" style="width: 15px;height: 15px;max-height: 15px;max-width: 15px;" name="saturdayCheck"><label class="form-label form-label disponibility-days" for="saturdayCheck">Sabado</label></div>
+                                            <div class="d-flex justify-content-evenly"><span class="d-xxl-flex align-items-xxl-center">Desde las&nbsp;</span><input class="form-control form-control disponibility-hours" type="number" name="startingHourSaturday" min="0" max="24"><span class="d-xxl-flex align-items-xxl-center ps-3">hasta las</span><input class="form-control d-xxl-flex align-items-xxl-center form-control disponibility-hours" type="number" name="EndingHourSaturday" max="24" min="0"></div>
+                                        </div>
+                                        <div>
+                                            <div class="d-flex align-items-center" style="margin: 5px 0px;"><input type="checkbox" style="width: 15px;height: 15px;max-height: 15px;max-width: 15px;" name="sundayCheck"><label class="form-label form-label disponibility-days" for="sundayCheck">Domingo</label></div>
+                                            <div class="d-flex justify-content-evenly"><span class="d-xxl-flex align-items-xxl-center">Desde las&nbsp;</span><input class="form-control form-control disponibility-hours" type="number" name="startingHourSunday" min="0" max="24"><span class="d-xxl-flex align-items-xxl-center ps-3">hasta las</span><input class="form-control d-xxl-flex align-items-xxl-center form-control disponibility-hours" type="number" name="EndingHourSunday" max="24" min="0"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" id="form-row-2">
+                        <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8" id="form-row-2-col"><label class="form-label form-label registration-fields" style="margin: 0px;" for="selfDescription">Como te describes?</label><textarea class="form-control form-control" id="text-area-input" name="selfDescription" placeholder="Describete aquí"></textarea>
+                            <div class="d-flex justify-content-between align-items-start m-2"><input type="checkbox" required="" name="acceptsPageUssage"><label class="form-label form-label ps-2 m-0" for="acceptsPageUssage">Aportar datos o fotos falsas, usar fotos de terceros sin autorización, el anuncio de el anuncio para cometer delitos. Implicará su eliminación retención del importe en tu perfil para gastos de tramitación de baja por incumplimiento</label></div>
+                        </div>
+                    </div>
+                    <div class="row" id="form-submit-buttons">
+                        <div class="col-auto col-sm-8 col-md-4 col-lg-4 col-xl-4 col-xxl-4 d-flex justify-content-evenly mx-auto my-2"><button class="btn btn-primary m-3" id="submit-form-button" type="submit">Aceptar</button><button class="btn btn-primary m-3" id="cancel-form-button" type="button">Cancelar</button></div>
+                    </div>
+                </section>
+            </form>
+        </main>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/js/bs-init.js"></script>
+    <script src="assets/js/fileUpload.js"></script>
+</body>
+
+</html>
